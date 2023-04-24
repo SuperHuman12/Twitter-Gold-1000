@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Twitter Golden Tick",
   "version": "1.0",
-  "description": "Injects custom styles to Twitter",
+  "description": "Make everyone a subscriber to Twitter Verified Organization",
   "permissions": [
     "activeTab",
     "declarativeContent",
@@ -27,6 +27,6 @@
       "48": "icon48.png"
     },
     "default_popup": "popup.html",
-    "default_title": "Twitter Style Injection"
+    "default_title": "Twitter Style Change"
   }
 }
