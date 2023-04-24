@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+  "name": "Twitter Golden Tick",
+  "version": "1.0",
+  "description": "Injects custom styles to Twitter",
+  "permissions": [
+    "activeTab",
+    "declarativeContent",
+    "https://twitter.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://twitter.com/*"],
+      "css": ["styles.css"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "48": "icon48.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_icon": {
+      "48": "icon48.png"
+    },
+    "default_popup": "popup.html",
+    "default_title": "Twitter Style Injection"
+  }
+}
