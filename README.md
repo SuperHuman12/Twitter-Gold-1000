@@ -8,7 +8,7 @@ Don't pay for $1000 for Twitter Gold, Over Rated
 
 ## How to Install
 
-1. 🚀 First things first - Create a new folder on your computer and name it "TwitterStyleInjection". The adventure begins!
+1. 🚀 First things first - Create a new folder on your computer and name it "Twitter_Gold_Style". The adventure begins!
 
 2. ✨ Time to bring your extension to life - Add the necessary files (`manifest.json`, `content.js`, `background.js`, `popup.html`, `icon48.png`, and optionally `styles.css`) to the "TwitterStyleInjection" folder, based on the previous responses.
 
